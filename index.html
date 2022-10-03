@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Les frmulaires</h1>
+    <form action="">
+        <label for="nom">Entrer votre nom</label>
+        <input type="text" name="nom" id="nom" placeholder="Entrer votre nom" required>
+        <br><br>
+        <label for="email">Entrer votre email</label>
+        <input type="email" name="email" id="email" placeholder=" email..." required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+
+        <label for="message">Message...</label>
+        <textarea name="" id="message" cols="50" rows="5"></textarea>
+        <br><br>
+        <div>
+            <label for="">Choisissez votre sexe:</label>
+            <br>
+            <input type="radio" name="sexe" value="Femme"> Femme <br>
+            <input type="radio" name="sexe" value="Homme"> Homme
+        
+        </div>
+        <hr>
+        <div>
+            <label for="">Quel langue parlez vous?</label><br>
+            <input type="checkbox" name="langue" value="francais">Francais <br>
+            <input type="checkbox" name="langue" value="nglais">Anglais <br>
+            <input type="checkbox" name="langue" value="chinois">Chinois <br>
+        </div>
+        <hr>
+        <select name="club" id="" >
+            <option value="">Votre club prefere</option>
+            <option value="PSG">PSG</option>
+            <option value="Barca">Barca</option>
+            <option value="manchester C">manchester C</option>
+            <option value="manchester U">manchester U</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Envoyer vos donner">
+
+
+
+    </form>
+</body>
+</html>
